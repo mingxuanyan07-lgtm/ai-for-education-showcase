@@ -1,5 +1,7 @@
 # AI for Education · 可审计数学教学 AI 工作台
 
+[![Offline checks](https://github.com/mingxuanyan07-lgtm/ai-for-education-showcase/actions/workflows/offline-checks.yml/badge.svg)](https://github.com/mingxuanyan07-lgtm/ai-for-education-showcase/actions/workflows/offline-checks.yml)
+
 基于开源 Rethlas 与 DeepTutor，本项目新增了 **Windows 运行适配、分阶段求解与教学编排、证据绑定、预算控制和统一评测归档**。目标是让一道题的输入、证明、核验、教学稿与失败状态能够被追溯，便于研究“回答是否正确”以及“怎样组织教学式解答”。
 
 这是用于简历与技术交流的 **source-available 展示版本**：包含精选源码、离线演示、测试与历史实验汇总。完整研究档案独立保留；本仓库采用新的公开历史，未发布账号备份、登录信息、完整会话日志或个人评价。

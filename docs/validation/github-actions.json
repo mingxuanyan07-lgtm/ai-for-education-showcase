@@ -1,0 +1,57 @@
+{
+  "scope": "Synthetic offline checks; no model calls or re-review of historical answers",
+  "tested_code_commit": "a9942f630a4ca640d51c1dbd8e7675897ef094d8",
+  "run_id": 41953293252,
+  "run_url": "https://github.com/mingxuanyan07-lgtm/ai-for-education-showcase/actions/runs/41953293252",
+  "conclusion": "success",
+  "configured_python": "3.12",
+  "configured_node": "22",
+  "jobs": [
+    {
+      "job_id": 127002070357,
+      "os": "windows-latest",
+      "summary": {
+        "discovered_tests": 357,
+        "tests_run": 357,
+        "passed": 357,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "expected_failures": 0,
+        "unexpected_successes": 0,
+        "successful": true
+      },
+      "model_demo_zero_calls": true,
+      "dashboard_passed": true,
+      "summary_recount_passed": true
+    },
+    {
+      "job_id": 127002070652,
+      "os": "ubuntu-latest",
+      "summary": {
+        "discovered_tests": 357,
+        "tests_run": 357,
+        "passed": 353,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 4,
+        "expected_failures": 0,
+        "unexpected_successes": 0,
+        "successful": true
+      },
+      "model_demo_zero_calls": true,
+      "dashboard_passed": true,
+      "summary_recount_passed": true
+    }
+  ],
+  "previous_attempt": {
+    "run_id": 41952917259,
+    "ubuntu": {
+      "passed": 352,
+      "failures": 1,
+      "skipped": 4,
+      "errors": 0
+    },
+    "cause": "Windows-only timeout cleanup assertion used on POSIX; corrected to validate both platform behaviors without skipping the test."
+  }
+}

@@ -20,9 +20,10 @@
 | JavaScript 合成指标测试 | 本机 Node 24.22.1，通过 |
 | 离线演示 | 4项宿主合同检查通过，实际模型调用0；不判断数学语义 |
 | 公开判定表复算 | `python examples/check_benchmark_summary.py` 校验分母、计数与分歧敏感性；不重做原始回答审阅 |
-| 远程 CI | Ubuntu/Windows，Python 3.12、Node22；[以实际运行结果为准](https://github.com/mingxuanyan07-lgtm/ai-for-education-showcase/actions/workflows/offline-checks.yml) |
+| 远程 Windows CI | Python3.12/Node22：357通过、0失败/错误/跳过；演示、JS和汇总复算均通过 |
+| 远程 Ubuntu CI | Python3.12/Node22：353通过、4项Windows专属跳过、0失败/错误；演示、JS和汇总复算均通过 |
 
-本机检查与远程 CI 的平台、版本分别报告。CI 的平台专属跳过项和失败均显示在测试摘要中，不将“已配置 CI”写成“已通过所有平台”。
+本机检查与远程 CI 的平台、版本分别报告。[实际CI运行](https://github.com/mingxuanyan07-lgtm/ai-for-education-showcase/actions/runs/41953293252) 与 [结构化摘要](validation/github-actions.json) 绑定代码提交 `a9942f6`。其后的验证文档/徽章提交不改变已测试代码；文档提交使用 `[skip ci]` 避免重复执行相同测试。CI 的平台专属跳过项和首次失败记录均保留。
 
 ## 公开访问与许可
 
