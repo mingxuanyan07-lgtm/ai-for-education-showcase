@@ -13,6 +13,7 @@ import copy
 import hashlib
 import io
 import json
+import os
 from pathlib import Path
 import re
 import shutil
@@ -1084,7 +1085,7 @@ class RunDshPreviewTests(ModelEvalTestCase):
 
 
 class RunHeadlessTests(ModelEvalTestCase):
-    """第 9 类：run_headless 的超时映射、taskkill 与不重试。"""
+    """第 9 类：超时映射、平台对应的终止方式与不重试。"""
 
     def run_headless_with_mocks(self, process, *, timeout_seconds=5):
         run_mock = Mock()
@@ -1095,7 +1096,7 @@ class RunHeadlessTests(ModelEvalTestCase):
                     timeout_seconds=timeout_seconds)
         return result, popen, run_mock
 
-    def test_timeout_maps_to_timeout_status_and_kills_process_tree_once(self):
+    def test_timeout_maps_to_timeout_status_and_stops_process_once(self):
         process = Mock()
         process.pid = 1234
         process.poll.return_value = None
@@ -1116,13 +1117,18 @@ class RunHeadlessTests(ModelEvalTestCase):
             call("完整任务文本", timeout=5),
             call(timeout=30),
         ])
-        run_mock.assert_called_once()
-        taskkill = run_mock.call_args.args[0]
-        self.assertEqual(taskkill[0], "taskkill")
-        self.assertIn("/T", taskkill)
-        self.assertIn("/PID", taskkill)
-        self.assertIn("1234", taskkill)
-        self.assertFalse(run_mock.call_args.kwargs.get("check", True))
+        if os.name == "nt":
+            run_mock.assert_called_once()
+            taskkill = run_mock.call_args.args[0]
+            self.assertEqual(taskkill[0], "taskkill")
+            self.assertIn("/T", taskkill)
+            self.assertIn("/PID", taskkill)
+            self.assertIn("1234", taskkill)
+            self.assertFalse(run_mock.call_args.kwargs.get("check", True))
+            process.kill.assert_not_called()
+        else:
+            run_mock.assert_not_called()
+            process.kill.assert_called_once_with()
 
     def test_completed_process_maps_to_completed_without_taskkill(self):
         process = Mock()

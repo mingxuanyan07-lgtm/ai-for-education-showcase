@@ -900,8 +900,8 @@
     {
       "path": "scripts/tests/test_model_eval.py",
       "archive_source_sha256": "0e327dc011d2d1d4e9bfb83ebd25dc81bbb727cb91e54203f42996b8edbaf95d",
-      "modified_for_public_export": false,
-      "public_text_sha256_lf": "0e327dc011d2d1d4e9bfb83ebd25dc81bbb727cb91e54203f42996b8edbaf95d"
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "5b9323e12ebc392c81014cb820feb4c8a21342f6de6493f0582f75add30e0351"
     },
     {
       "path": "scripts/tests/test_record_rendering.py",
