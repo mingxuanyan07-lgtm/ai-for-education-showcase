@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "provider": "deepseek-account",
+  "model": "deepseek-flash",
+  "reasoning_effort": "max",
+  "configured_model_source": "Explicit profile selection; actual response model and provider must be verified",
+  "architecture_profile": "verified-v2",
+  "teaching_contract": "knowledge-route-v1",
+  "max_rounds": 3,
+  "timeout_seconds": 900,
+  "max_model_calls": 10,
+  "max_tool_calls": 12,
+  "max_total_seconds": 3600,
+  "max_observed_tokens": 500000,
+  "record_kind": "math_experiment",
+  "final_review": "codex_current_chat",
+  "search": "disabled",
+  "allow_provider_fallback": false
+}

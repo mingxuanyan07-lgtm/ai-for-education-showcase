@@ -1,0 +1,46 @@
+main { max-width: 1600px; padding: 32px; }
+#dashboard h2 { margin-top: 0; }
+.hint, .definitions { font-size: 14px; color: #52616c; }
+.quick-guide { border: 1px solid #dce3e8; border-radius: 8px; padding: 18px; background: #f8fbfd; }
+.quick-guide h2 { margin-top: 0; }
+.overview-cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(170px,1fr)); gap: 10px; margin: 12px 0 18px; }
+.overview-card { display: flex; flex-direction: column; gap: 2px; padding: 12px; border-radius: 6px; background: white; border: 1px solid #dce3e8; }
+.overview-card strong { font-size: 22px; color: #163d57; }
+.overview-card span { font-weight: 600; }
+.overview-card small { color: #52616c; }
+.batch-summary { display: grid; grid-template-columns: repeat(auto-fit,minmax(260px,1fr)); gap: 8px; margin-bottom: 12px; }
+.batch-item { display: flex; flex-direction: column; gap: 2px; padding: 10px 12px; background: white; border-left: 4px solid #8bb8d2; }
+.batch-item span { color: #52616c; font-size: 13px; }
+.question-map { overflow-x: auto; margin-bottom: 12px; }
+.question-map table { font-size: 13px; }
+.selection { margin: 16px 0; font-weight: 600; color: #163d57; }
+.advanced-controls, .run-details { margin: 18px 0; border: 1px solid #dce3e8; border-radius: 8px; padding: 8px 14px; background: white; }
+.advanced-controls > summary, .run-details > summary { cursor: pointer; font-weight: 600; color: #163d57; padding: 6px 0; }
+.filters { display: grid; grid-template-columns: repeat(auto-fit,minmax(175px,1fr)); gap: 12px; }
+.filters label { display: flex; flex-direction: column; font-size: 14px; gap: 4px; }
+select, input[type=search], button { padding: 9px; border: 1px solid #b4c5d0; border-radius: 5px; background: white; color: #20272e; font: inherit; min-width: 0; }
+button { cursor: pointer; font-size: 14px; }
+button:hover { background: #edf3f7; }
+button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid #086ba1; outline-offset: 2px; }
+fieldset { margin: 18px 0; border: 1px solid #dce3e8; border-radius: 6px; font-size: 14px; }
+fieldset label { display: inline-flex; align-items: center; margin: 5px 14px 5px 0; gap: 6px; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; font-size: 14px; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit,minmax(190px,1fr)); gap: 12px; }
+.metric-card { padding: 14px; border: 1px solid #dce3e8; border-radius: 6px; background: #f5f9fc; font-size: 14px; }
+.metric-card strong { display: block; font-size: 23px; color: #163d57; }
+.metric-card strong { overflow-wrap: anywhere; }
+.metric-card strong.scoped-metric { font-size: 16px; margin-top: 6px; line-height: 1.6; }
+#runtime-results table { min-width: 1280px; }
+#runtime-results th:nth-child(4), #runtime-results th:nth-child(5), #runtime-results th:nth-child(6) { background: #dfedf6; }
+#runtime-results td:nth-child(4), #runtime-results td:nth-child(5), #runtime-results td:nth-child(6) { font-weight: 600; color: #163d57; }
+#runtime-results td:nth-child(9) { min-width: 200px; max-width: 380px; font-size: 12px; }
+.scroll-table { overflow-x: auto; margin-bottom: 20px; }
+.scroll-table table { min-width: 900px; }
+.scroll-table th { white-space: nowrap; }
+.scroll-table td { min-width: 80px; max-width: 320px; }
+.scroll-table td a { display: inline-block; margin-right: 8px; }
+.definitions { margin-top: 30px; border-top: 1px solid #dce3e8; padding-top: 15px; }
+#missing { font-size: 14px; }
+[hidden] { display: none !important; }
+@media (max-width: 700px) { main { padding: 20px 14px; } }
+@media print { .filters, fieldset, .toolbar { display: none; } .scroll-table { overflow: visible; } .scroll-table table { min-width: 0; } }

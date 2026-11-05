@@ -1,0 +1,45 @@
+# Generated demonstration and synthetic test output
+/demo-output/
+/work/
+/logs/
+/exports/
+/docs/experiments/
+/docs/实验索引.*
+/docs/runtime-observations/
+/.local-test-results.json
+/TEST-RESULTS.json
+
+# Local environments and credentials
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.env
+.env.*
+!.env.example
+**/auth.json
+**/credentials.json
+**/cookies.json
+*.key
+*.pem
+*.p12
+*.pfx
+*.sqlite*
+*.db
+*.zip
+/setup/*.local.json
+**/.codex/config.toml
+
+# Runtime artifacts inside the upstream framework snapshot
+/Rethlas/agents/generation/data/
+/Rethlas/agents/generation/logs/
+/Rethlas/agents/generation/results/
+/Rethlas/agents/generation/memory/
+/Rethlas/agents/generation/verification_receipts/
+/Rethlas/agents/verification/logs/
+/Rethlas/agents/verification/results/
+/Rethlas/agents/verification/memory/
+Thumbs.db
+.DS_Store

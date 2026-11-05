@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "provider": "deepseek-account",
+  "model": "deepseek-flash",
+  "reasoning_effort": "max",
+  "max_rounds": 3,
+  "timeout_seconds": 900,
+  "record_kind": "math_experiment",
+  "final_review": "codex_current_chat",
+  "configured_model_source": "DSH desktop agent-default-model checked 2026-10-27; actual response must match",
+  "workflow_variant": "Rethlas DeepSeek 分阶段适配",
+  "tools": "none; host orchestrates artifacts and independent sessions",
+  "search": "disabled",
+  "allow_provider_fallback": false
+}

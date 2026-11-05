@@ -1,0 +1,12 @@
+{
+  "shared_mcp": {
+    "math-local": {
+      "command": "CONFIGURE_MATH_PYTHON",
+      "args": [
+        "-X",
+        "utf8",
+        "CONFIGURE_MATH_SERVER"
+      ]
+    }
+  }
+}

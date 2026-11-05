@@ -1,0 +1,29 @@
+{
+  "baseline_version": "v1",
+  "status": "design_only_not_evaluated",
+  "created_utc": "2026-10-11T06:36:20.7454378Z",
+  "change_reason": "initial project-specific teaching templates derived from the existing experiment plan",
+  "files": [
+    {
+      "path": "common-input.md",
+      "sha256": "99710a662e116d666db69fa981a3c2ab5784a248a7c2ced6534977b121ddf33d"
+    },
+    {
+      "path": "teaching-t0.md",
+      "sha256": "ae75c26bb38b54a6024847b672b61f837a1ce8b1a44e925d2e1ae6fc352e8644"
+    },
+    {
+      "path": "teaching-t1.md",
+      "sha256": "58dae36e4660032dfc6fbb3e73f26ad8492bcb6f9c6563dd61c9726861c211b6"
+    },
+    {
+      "path": "teaching-t2.md",
+      "sha256": "d2b78ef2a22dee475b3c9db1fb1046abf89b9b46425b6f093a55c0efbb6b4798"
+    },
+    {
+      "path": "teaching-t3.md",
+      "sha256": "ac59d6c9d49dee94212fd3f233acfb77a2c35471ce355fd7b55766431e45c6b4"
+    }
+  ],
+  "revision_rule": "Preserve v1; save future revisions with a new version and record the actual complete prompts."
+}

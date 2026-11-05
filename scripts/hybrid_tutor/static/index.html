@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>数学教学 · 组合工作台</title><link rel="stylesheet" href="/styles.css"><script src="/app.js" defer></script></head>
+<body>
+<main>
+<header><div><p class="eyebrow">RETHLAS × DEEPTUTOR</p><h1>数学教学组合工作台</h1><p class="subtitle">求解与证明核验 → 教学整理 → 教学核验 → 当前 Codex 终审</p></div><a class="native" href="http://127.0.0.1:3783/chat" target="_blank" rel="noopener noreferrer">打开 DeepTutor 独立应用 ↗</a></header>
+<p class="notice">组合原型 · 模型检查不等于形式化证明。历史回放与真实运行分别标识；网页不提供“接受为已证明”操作。</p>
+<section class="configuration"><div id="configuration">正在读取冻结配置…</div><details><summary>预算与授权范围</summary><pre id="budget"></pre><p id="authorization"></p></details></section>
+<div class="workspace">
+<aside>
+<section class="card"><h2>提交材料</h2><form id="task-form">
+<label>题号（可选）<input id="question_id" name="question_id" autocomplete="off" placeholder="例如 math_test_precalculus_356"></label>
+<label>完整数学题面<textarea id="problem" name="problem" required rows="5" placeholder="保留全部条件与小问；不会自动改写题面。"></textarea></label>
+<label>统一教学要求<textarea id="requirements" name="requirements" required rows="4" placeholder="填写讲解要求，以及学生明确提供的已学／未学知识；未知请注明。"></textarea></label>
+<label>完整用户请求<textarea id="user_prompt" name="user_prompt" required rows="3" placeholder="保存本次用户原文，独立于实际模型输入。"></textarea></label>
+<label>学科标签<input id="tags" name="tags" placeholder="以中文或英文逗号分隔"></label>
+<div class="actions"><button type="submit" id="preflight">无模型预检</button><button type="button" id="run" class="secondary">按宿主授权运行</button></div>
+<p class="help">草稿保存在本浏览器。真实运行须宿主授权匹配本题、配置与预算；此页面不能创建授权。</p>
+</form></section>
+<section class="card"><h2>历史材料回放</h2><label>选择既有实验<select id="history"><option value="">正在读取…</option></select></label><button id="replay" class="secondary">查看原始历史记录</button><p class="help">只读，不调用模型，不记为新的组合系统成绩。</p></section>
+<section class="card"><h2>组合任务</h2><button id="refresh" class="text-button">刷新任务列表</button><div id="tasks" class="task-list"></div></section>
+</aside>
+<article class="card output"><div class="result-heading"><h2>过程与证据</h2><span id="status" class="badge">尚未选择</span></div><div id="feedback" role="status" aria-live="polite"></div><div id="result"><div class="empty"><p>先查看一份历史记录，或提交材料进行无模型预检。</p><p>这里会展示实际输入、每阶段回答、核验结论和已记录用量。</p></div></div></article>
+</div>
+<footer>本机专用 · 独立环境 · 原始回答保留 · 人工评价由使用者填写</footer>
+</main></body></html>

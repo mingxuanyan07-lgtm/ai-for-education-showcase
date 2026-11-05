@@ -1,0 +1,1009 @@
+{
+  "source_archive_commit": "0c2800fef48501cbb521499bfa78741ddb6948fc",
+  "scope": "Allowlisted source and synthetic templates; no raw user conversations or original experiment logs.",
+  "public_hash_policy": "SHA256 over file bytes with CRLF normalized to LF; this is a source export manifest, not a mathematical verification receipt.",
+  "files": [
+    {
+      "path": "Rethlas/.gitignore",
+      "archive_source_sha256": "5170b1460086234f0ea3b4157628516f611de963eed04c133d72bd5b9e309466",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "1445e059f48d5a58c07f04b45d85551829000673321fdbe401f705e2de5625ec"
+    },
+    {
+      "path": "Rethlas/LICENSE",
+      "archive_source_sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "Rethlas/README.md",
+      "archive_source_sha256": "68142a2283d968dbc783021d8c9c2fc6188f2b43a85d3c5cdbd935fa4839d0d9",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "5f419fdca0268c7a733219ede12f7f502788c2c9c1e83eb27505adf5282caacf"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/construct-counterexamples/SKILL.md",
+      "archive_source_sha256": "b0a1d6046834b88dde2d63d754b2e5b7a717a4bef45a671ff0159f968d1796f3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d2ee4da4d4b9fcc66133e661f58eee8ab37da4df93d61eafa38abd80b13141d2"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/construct-counterexamples/agents/openai.yaml",
+      "archive_source_sha256": "46e0f47882111d7511f22e8e7a9f03cdfe44229045faace2213cf99e97341662",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a63b9003b15309f61d2723f0d35c54543c42ed0cf623c96154c61f8fb878f991"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/construct-toy-examples/SKILL.md",
+      "archive_source_sha256": "333612ca22360a6653434c3aff97cb5b3d41e8cc8f5baf08b6c2c8a368401d8a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "c2dba879437376f078d41b23a521a39362c11eceea63905b74dd3a08d3edaa98"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/construct-toy-examples/agents/openai.yaml",
+      "archive_source_sha256": "803624c0172484b997ed07bd92a65c4d3a380c2a1a1a9c7b4e7c8785e72bb4ee",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d58e06f2a5534535b1f2d000aa3f3667e4ecb991e34ac413dfb8f289e34f7507"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/direct-proving/SKILL.md",
+      "archive_source_sha256": "6b56e732d482db864fec1b2320036dbaf9a0914dd3fd40e1aaac274b39a4bd9b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "32104a79a794f487e364729c44a2bb14c57ebe4ccd65f8e14098c9b475989654"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/direct-proving/agents/openai.yaml",
+      "archive_source_sha256": "4e3d854aaac9a589f471736b9d7366e1980c54d9d7f85404d50bed67ca3befdc",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "89a1716339bac287fed695b3f8f0315d2a5ab304abb2a0b0ec56b1783312649a"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/identify-key-failures/SKILL.md",
+      "archive_source_sha256": "e4c0399c8e0bebc5638085c5e4056964ad24dfbde4aee44524742cc4ae6754b4",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f6b6503c124100d91462576ca2b381800772f3869b711a711b5df59477b6b432"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/identify-key-failures/agents/openai.yaml",
+      "archive_source_sha256": "60400e96f52d47ba49849134403d95f1bd06790ab75b4727aba5a9515d7acf6b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "30942661280bcb547a4ac8f7eed98af01722e86d085e6301139d184745b8929b"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/obtain-immediate-conclusions/SKILL.md",
+      "archive_source_sha256": "a22750633178cf597a635785ba9b093d748d1381637d1974a72d2a2638dbd5d8",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "3c5faa7b9bbd3caf842b11610380d0834542e8f251dfc01f0f515cce789a6b32"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/obtain-immediate-conclusions/agents/openai.yaml",
+      "archive_source_sha256": "438bcaf09d28400fd2280ccad99f4f5643a75e4f451841c682404a47d1e440ad",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f0df471853192a295cebc88e5805a2fc1d6b967e2f55cad93a6c78b194d3c623"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/propose-subgoal-decomposition-plans/SKILL.md",
+      "archive_source_sha256": "21cbdb81316a37f09076c7606a784cd6d958f8af6dc011c156d25acc6c7641d6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d84a306d32116ffe6dcb539625ff45e8e0c65276cf0dab5dfcfada8b8b907d8c"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/propose-subgoal-decomposition-plans/agents/openai.yaml",
+      "archive_source_sha256": "2803cbab6fcb1aabeeebb6a4e740815077c90fba35f384269f3c9996c68f7562",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a0400944fed038b18afae60e67a06f68149975305ff82b16df2404a4b68a733c"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/query-memory/SKILL.md",
+      "archive_source_sha256": "259f561cad5f004f636b4006cd413440c6634b680064b92acea85781d02c3aa5",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "23ba2224f450b62eeeca63b67be864d90d8e6c2f518be3d7e802a47ad21b9888"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/query-memory/agents/openai.yaml",
+      "archive_source_sha256": "32a798bbba3c3f93ec127ba5877e69501047d76f90f513064083f8955e4cc4d4",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "9e76ff533ab11f1cce0cf725879d4b33ddbf67cc739ced63c3e44431e8e86a92"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/recursive-proving/SKILL.md",
+      "archive_source_sha256": "ed330e10e1d55b10d971fac2198550d2c7dcc2b7579fd33488e744202ae1ed14",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "e56a1601a541167ef08839b7ec012b1e7b61f2e98e3e60165ff72ae2af838157"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/recursive-proving/agents/openai.yaml",
+      "archive_source_sha256": "5101d14acd5586b557c41f2de7be22ca77b743878a73373864438847e9129ceb",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "88979d01c6c935c6c51af3a14f10bc56363d99f46b6ac10158bb654053ac1523"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/search-math-results/SKILL.md",
+      "archive_source_sha256": "2f4039119d12b97cb7e1236cdc8305ee8e2d7269fb86efd59aafbde095807c9b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "66fc0bf0a2224bc5c857e72bcadaf03066c48c5c4e56d653054e53cfa32d7723"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/search-math-results/agents/openai.yaml",
+      "archive_source_sha256": "926892e8380aee0582a40a1212109357e088f6ad1962765b8fcb047c95f401fe",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0b6da7739d16d4c53fb69040e7fa509aeac54e760d50cf8ab57a773e0ddf23ae"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/verify-proof/SKILL.md",
+      "archive_source_sha256": "29a95b444725eccf50b4733f095966d3250e577da25005eeaac541e591505655",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "c2f54133ae96ce8d902880aaeaaf00241bcb46cf9fd452188cc91f78d693abaa"
+    },
+    {
+      "path": "Rethlas/agents/generation/.agents/skills/verify-proof/agents/openai.yaml",
+      "archive_source_sha256": "ed7623d95501a5d18d9d556452d08420a8a244dd0003a3cfeb17fab02b18afce",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "813b39a3ec19781b33732113794bc283b3a3c1512e14d963701b1b2952a1dd5d"
+    },
+    {
+      "path": "Rethlas/agents/generation/AGENTS.md",
+      "archive_source_sha256": "4b402fe833b880dc5669fdd692cca4b15bd0a83356bf40872235a7bd802cff03",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "55f3af1bc5cc25e8a2c1650e243dbddb823c1dc62b8d3807a5ea849596a1302b"
+    },
+    {
+      "path": "Rethlas/agents/generation/mcp/__init__.py",
+      "archive_source_sha256": "ec028a12ceeee976939f3118042f2e03f86626afcfee8dc4beb4ca72dd05315f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "72055be080295ecf34fe44cfb765a6328f692f8e72de6f2ffc09a0a3f54594bb"
+    },
+    {
+      "path": "Rethlas/agents/generation/mcp/requirements.txt",
+      "archive_source_sha256": "903481248e593784e426f010b4c78b70149bbfa62390425fcb4cb99fff25aea4",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ce476cf9ddcbb3155a2b699a06a0f12b5df704c08135758e447c19e5cf2f2695"
+    },
+    {
+      "path": "Rethlas/agents/generation/mcp/server.py",
+      "archive_source_sha256": "8e36b7e284bd154772a38bb8c4db4348c9963ab44351bd8f693d6e8ea4aa24e0",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "166e04799519bfae1c39236c31e32dd9a017a97465ae98ef0f3c2d0c4fa1de3e"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/.gitignore",
+      "archive_source_sha256": "bb990ef3c6b3891a5c465247b328e2ce81a7c384c5261bddaaccc70ab5bedaf1",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "987990ebed960982de87190d7d1dc74645ea81efceddbe7d85b49c2f7fd248d2"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/config.toml",
+      "archive_source_sha256": "f4f896dad51f08df5745e4e6d7d10361cd0ee64d4263fc72483e8c19bc37b8bf",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "267da896b1bfe162b0b90596671d91ddf3981823cd0320c18748895800f7e6b8"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/content/_index.md",
+      "archive_source_sha256": "fa1e4d55e6469e8c639e75dfba263ed49ba3b2af0c4994f444cfafdd17652b12",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ae2f86b93ae0c8bd5afffcf660f1767395a3daa3e775558b2fe8e8fc259acbb1"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/serve.sh",
+      "archive_source_sha256": "7f80abf94d850ad60b56cf023e3ac0af7fbbda8ad8accf1a6d9dfee29abd2b59",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "fde92c1b0b944e89b010d81a090f1e21f11298108391aaf317d1129b274d358e"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/setup_theme.sh",
+      "archive_source_sha256": "ea7e3f04081aca830485a1ea20a8e9dd90a9bd66b26fd47a62f7770b02f85a8e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "602e3b0f700da3865bd0e9c47f0045c8138c2db6955720a77276c32a0a88dd66"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/templates/index.html",
+      "archive_source_sha256": "27e0b25b658b23db57810613b9ed7a6d95cd9f43ad4894f488e8e8efca208287",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "313cedff1ac93761b6ccb0b1d9ade34e29224f8d6a4d7ca7d8b8304ceb0e68d7"
+    },
+    {
+      "path": "Rethlas/agents/generation/site/transform_math.py",
+      "archive_source_sha256": "48e5ade62e5fb7a3a608cec07a45ef671a263714eed05dd93bd2df7ca075c01f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "54c29a01f970ad4075353ec659a10911b5fd29f75f86dcca7ab1bf9ded6f1aee"
+    },
+    {
+      "path": "Rethlas/agents/generation/tests/run_example.sh",
+      "archive_source_sha256": "91c46c56ffe94e9dddf3e429a987cb7ca83382c7a2342ea73adf6b88168b1601",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0584cd53dca494f050d5083614a6d16f2cc34aaa824f521572b3690fdbd47dce"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/check-referenced-statements/SKILL.md",
+      "archive_source_sha256": "c300c6e9c354a9521647c1bca3ea6af17c1c620c364c5ff4875c8c29870daa4f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "2ff55a3db595fd8a88ce0526f7375b8ea6775a0847aacbd34329194dc1b0d97e"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/check-referenced-statements/agents/openai.yaml",
+      "archive_source_sha256": "6b6382692f64c589fc7bde3db99026b729486bcf744f52daa2f039cbc6c436ee",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "edb05e1ae1249572f4af17d7cc0989eb3a2cb150fde1edaff2e6477514b47f04"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/synthesize-verification-report/SKILL.md",
+      "archive_source_sha256": "bd55b30a293400aac07f6e200e936155cb1e5b42fb6e71d0d1df760c358495b3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "db04ac457b53426f5544a3b6fb3343320008463b7cb45a25573bc319c4512ec0"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/synthesize-verification-report/agents/openai.yaml",
+      "archive_source_sha256": "f4c21bf595d8818db79cd2244af05f8941a298d237032051448e100dcc4203f8",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "af931895ded627c9c45e28530462015e133269448971f942961fbdcd3702ed81"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/verify-sequential-statements/SKILL.md",
+      "archive_source_sha256": "4796bcc5d7fe5e4a0d27238246452137e036e98fafb874570f1d0d0153ae2358",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "aa134aedc8d91f4af246520982327eec5b83c69e1a65940ccbc16033df470d1d"
+    },
+    {
+      "path": "Rethlas/agents/verification/.agents/skills/verify-sequential-statements/agents/openai.yaml",
+      "archive_source_sha256": "aff7375f47871e6c153d02f30f437fc4880982124b70235f020a06aad655eec5",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "45209a0bc0fddf9d4d9f429c1faa4c5497a711b7a868dd150f4b5ae97da166af"
+    },
+    {
+      "path": "Rethlas/agents/verification/AGENTS.md",
+      "archive_source_sha256": "9071d4bdd2bff688f3f0e84c1c8e3acbf562860dbff825fb778092aea573dae7",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "81627469a38a1adb5a6b935e9636480e45aa2bec13ecf63a429248066a80dbdd"
+    },
+    {
+      "path": "Rethlas/agents/verification/api/__init__.py",
+      "archive_source_sha256": "de2b0b5704c9760c7e78c238328d88770f705b0d03e93c34c448cb9c2500149d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "48af971bac3bf5d7c33e2b173420d07dddc676f21ad3361f31a6e4ad4d0e1367"
+    },
+    {
+      "path": "Rethlas/agents/verification/api/requirements.txt",
+      "archive_source_sha256": "f2cfbc42d94443506cbc3c7e51c4983294333283c164f0dbdcf5da7b98017200",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "982a17f044aff2b2bb5e22bafccf207e44311fd519ae3ec3efbca331ff60c64b"
+    },
+    {
+      "path": "Rethlas/agents/verification/api/server.py",
+      "archive_source_sha256": "b07ba457e2816bf3c6dd1b5804418f52a4249417e493302538c728e6abb410aa",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "9847c7919753e3b430a57c15a53a6d15960a9a1a376e2e5517882ba464b498ec"
+    },
+    {
+      "path": "Rethlas/agents/verification/mcp/__init__.py",
+      "archive_source_sha256": "424d6c4ec3be45e1ca4db60bfd258bf7f06241fcc0c1dda742ffccc4c3eaf9eb",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f7a712f48dcbde6ea9b468834cc0f43e4a1ea65ce59e481eedcdeabfc6478488"
+    },
+    {
+      "path": "Rethlas/agents/verification/mcp/requirements.txt",
+      "archive_source_sha256": "ad66ba38366e6d7d36f7e6bf368b98bff41dc550e63e1ccac2b4476d469814b6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0f5d25cedb0aa001cc43000b56b393a493dc7a2083d949a5faa128384c99fcf7"
+    },
+    {
+      "path": "Rethlas/agents/verification/mcp/server.py",
+      "archive_source_sha256": "503722113a39049e56c30cd647d741296a169ae1de281a6c5eaa91a112b16f63",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "e2c72c6768b151a2754234de2fde52a7d5174cd84617002e0fc295a929834483"
+    },
+    {
+      "path": "Rethlas/agents/verification/requirements.txt",
+      "archive_source_sha256": "d2a271cbc548af26869d4e6f7e3bddaa21b8459381f88412394af1901cf74665",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8e7287d5c9e950c856a12171156d271d5f24c96df21b00824ff16e3f9f405e70"
+    },
+    {
+      "path": "Rethlas/agents/verification/schemas/verification_output.schema.json",
+      "archive_source_sha256": "0382b5553b0ced30684579a5372d4046e25e24caf97ffd12a6dd07f4120559b5",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a8d6f8904bec58cba44c43f6fc305461f21733699117d2be703d9408c50b1356"
+    },
+    {
+      "path": "Rethlas/agents/verification/scripts/test_verify_endpoint.py",
+      "archive_source_sha256": "2acf14ed7db500c7d2fb2b36465626ab6331fd881c2c2a4c2f32275de4a2a70a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "fee8173f6f2598211ab4b53bce1a7152e30af622e01eefe015fb93f8855915e7"
+    },
+    {
+      "path": "evaluations/external-review.example.json",
+      "archive_source_sha256": "dc977fda6182432ac3e3ec2077214609cd61cde52a00f8e381c64dddaac0caad",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "dc977fda6182432ac3e3ec2077214609cd61cde52a00f8e381c64dddaac0caad"
+    },
+    {
+      "path": "evaluations/index-settings.example.json",
+      "archive_source_sha256": "ba9a461d18853832e767833d4cee8edde77932ee3a5ecbba417067260d1d4423",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ba9a461d18853832e767833d4cee8edde77932ee3a5ecbba417067260d1d4423"
+    },
+    {
+      "path": "evaluations/inputs/example/proof-source.json",
+      "archive_source_sha256": "a53c69c6a693ce616784111c5a1ecb0e150a0d3832acba26e128a7a4dac56c52",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a53c69c6a693ce616784111c5a1ecb0e150a0d3832acba26e128a7a4dac56c52"
+    },
+    {
+      "path": "evaluations/inputs/example/question.md",
+      "archive_source_sha256": "21839cdd5096a58cf8be45635dcfa9eaf49ec556d7f614ebcde47cdfd2c493d8",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "21839cdd5096a58cf8be45635dcfa9eaf49ec556d7f614ebcde47cdfd2c493d8"
+    },
+    {
+      "path": "evaluations/inputs/example/requirements.md",
+      "archive_source_sha256": "d75c69f338ab65ef59a70d113d0a93ef4f3f9ad57bad3675745871e84f395dbd",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d75c69f338ab65ef59a70d113d0a93ef4f3f9ad57bad3675745871e84f395dbd"
+    },
+    {
+      "path": "evaluations/inputs/example/solving-prompt.md",
+      "archive_source_sha256": "d65a1313968578f761fbeba2c7e18a035f0044808a081dfbe8eb54aec03b48c2",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d65a1313968578f761fbeba2c7e18a035f0044808a081dfbe8eb54aec03b48c2"
+    },
+    {
+      "path": "evaluations/inputs/example/student-background.md",
+      "archive_source_sha256": "a397beeb2ac871a6309cd0a333a6cb3cf9b6a9e7633534b04df38cf792d82cbb",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a397beeb2ac871a6309cd0a333a6cb3cf9b6a9e7633534b04df38cf792d82cbb"
+    },
+    {
+      "path": "evaluations/inputs/example/teaching-prompt.md",
+      "archive_source_sha256": "8ab25a4a4d8499fe3fd7933b2876dff23273f6396a183eb9227e56981ba71fe9",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8ab25a4a4d8499fe3fd7933b2876dff23273f6396a183eb9227e56981ba71fe9"
+    },
+    {
+      "path": "evaluations/inputs/example/teaching-requirements.md",
+      "archive_source_sha256": "abf597d1c110ef1a94506e2529284f75d591dd2d3e0765e6bda877ce9ff18361",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "abf597d1c110ef1a94506e2529284f75d591dd2d3e0765e6bda877ce9ff18361"
+    },
+    {
+      "path": "evaluations/inputs/example/user-request.md",
+      "archive_source_sha256": "9eada4c04a58d5bbc98d808c7104ff989c73218e86bcae2aa62b64054cac0a15",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "9eada4c04a58d5bbc98d808c7104ff989c73218e86bcae2aa62b64054cac0a15"
+    },
+    {
+      "path": "evaluations/inputs/example/verified-proof.md",
+      "archive_source_sha256": "370cdb14fefad28a4e0e5afc1bb18f62d150665f59cac7be95f64a353f85ab7e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "370cdb14fefad28a4e0e5afc1bb18f62d150665f59cac7be95f64a353f85ab7e"
+    },
+    {
+      "path": "evaluations/record-template.json",
+      "archive_source_sha256": "0d9810439e57354873c09166d3471f0b4fb0171ab598ef3ab79995be8191da16",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0d9810439e57354873c09166d3471f0b4fb0171ab598ef3ab79995be8191da16"
+    },
+    {
+      "path": "evaluations/specs/pipeline-comparison.example.json",
+      "archive_source_sha256": "09b43f9fb80948e64fcb3d744a32ac0706b3fc72c321f775f89a30bc37c7c89f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "09b43f9fb80948e64fcb3d744a32ac0706b3fc72c321f775f89a30bc37c7c89f"
+    },
+    {
+      "path": "evaluations/specs/solving-comparison.example.json",
+      "archive_source_sha256": "6d70ac80437fbba458e44ae6c920fdc87500f3d6d3de4a9775e639b1028e879d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "6d70ac80437fbba458e44ae6c920fdc87500f3d6d3de4a9775e639b1028e879d"
+    },
+    {
+      "path": "evaluations/specs/teaching-comparison.example.json",
+      "archive_source_sha256": "8854122a4346687b016347b94d5efa6e526d43f21815254d440b6792846413cd",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8854122a4346687b016347b94d5efa6e526d43f21815254d440b6792846413cd"
+    },
+    {
+      "path": "prompt-engineering/prompts/common-input.md",
+      "archive_source_sha256": "99710a662e116d666db69fa981a3c2ab5784a248a7c2ced6534977b121ddf33d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "99710a662e116d666db69fa981a3c2ab5784a248a7c2ced6534977b121ddf33d"
+    },
+    {
+      "path": "prompt-engineering/prompts/knowledge-route-v1.md",
+      "archive_source_sha256": "cddea3735e0ea4375b7e9a0051a1b34f2aa4f1550c5f28f333c5feef0dff5c23",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "cddea3735e0ea4375b7e9a0051a1b34f2aa4f1550c5f28f333c5feef0dff5c23"
+    },
+    {
+      "path": "prompt-engineering/prompts/teaching-t0.md",
+      "archive_source_sha256": "ae75c26bb38b54a6024847b672b61f837a1ce8b1a44e925d2e1ae6fc352e8644",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ae75c26bb38b54a6024847b672b61f837a1ce8b1a44e925d2e1ae6fc352e8644"
+    },
+    {
+      "path": "prompt-engineering/prompts/teaching-t1.md",
+      "archive_source_sha256": "58dae36e4660032dfc6fbb3e73f26ad8492bcb6f9c6563dd61c9726861c211b6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "58dae36e4660032dfc6fbb3e73f26ad8492bcb6f9c6563dd61c9726861c211b6"
+    },
+    {
+      "path": "prompt-engineering/prompts/teaching-t2.md",
+      "archive_source_sha256": "d2b78ef2a22dee475b3c9db1fb1046abf89b9b46425b6f093a55c0efbb6b4798",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d2b78ef2a22dee475b3c9db1fb1046abf89b9b46425b6f093a55c0efbb6b4798"
+    },
+    {
+      "path": "prompt-engineering/prompts/teaching-t3.md",
+      "archive_source_sha256": "ac59d6c9d49dee94212fd3f233acfb77a2c35471ce355fd7b55766431e45c6b4",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ac59d6c9d49dee94212fd3f233acfb77a2c35471ce355fd7b55766431e45c6b4"
+    },
+    {
+      "path": "prompt-engineering/prompts/versions.json",
+      "archive_source_sha256": "bb1d32847d165b62f12af444412b4c710928c3736435036fc5c55572b966ac93",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "7363e4310bcd44fbc541442b0ec23c3e6d53bf8bf36f43134a73597184be3689"
+    },
+    {
+      "path": "prompt-engineering/references/review-rubric.md",
+      "archive_source_sha256": "1b60aaf11e87c63a15d600e48542ea55b16ffa24bb1ee45a378d9bb685c8c99b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "1b60aaf11e87c63a15d600e48542ea55b16ffa24bb1ee45a378d9bb685c8c99b"
+    },
+    {
+      "path": "prompt-engineering/references/template-use.md",
+      "archive_source_sha256": "d5a826067354ccd7b083eb4158b4711a03f1e62405987a32b4dba600e5697c8a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d5a826067354ccd7b083eb4158b4711a03f1e62405987a32b4dba600e5697c8a"
+    },
+    {
+      "path": "scripts/Run-DeepSeek-Rethlas.ps1",
+      "archive_source_sha256": "32a15043609ab4b68bc51828ba443b0a9a68fe6f0289d6cbb36511d2904f76bc",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "32a15043609ab4b68bc51828ba443b0a9a68fe6f0289d6cbb36511d2904f76bc"
+    },
+    {
+      "path": "scripts/Run-Rethlas.ps1",
+      "archive_source_sha256": "240b86e02e121e489e0dbbe2c4fb054ba62c919db11e7bdbdee48b77ea4b4e4e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "240b86e02e121e489e0dbbe2c4fb054ba62c919db11e7bdbdee48b77ea4b4e4e"
+    },
+    {
+      "path": "scripts/Start-HybridTutor.ps1",
+      "archive_source_sha256": "401242bb3d7b99f8fb990c76f7747ce2e0d64d2a2945cb7d45e5d8868a3a27ca",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "401242bb3d7b99f8fb990c76f7747ce2e0d64d2a2945cb7d45e5d8868a3a27ca"
+    },
+    {
+      "path": "scripts/Start-Verification.ps1",
+      "archive_source_sha256": "88a5906199a7189ddc8d83b02619176b4438c0c88ddce21f87b1af62c0b0c151",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "88a5906199a7189ddc8d83b02619176b4438c0c88ddce21f87b1af62c0b0c151"
+    },
+    {
+      "path": "scripts/Stop-HybridTutor.ps1",
+      "archive_source_sha256": "bc0331c5fe062dac7e4b3a3f346ab356bc526ca64a864329bad06d6856446749",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "bc0331c5fe062dac7e4b3a3f346ab356bc526ca64a864329bad06d6856446749"
+    },
+    {
+      "path": "scripts/benchmark_evaluation.py",
+      "archive_source_sha256": "281ec64f3006c7c7eaec29125bcd79b9ecc02ff8b07af9065e494014c7c03fb3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "281ec64f3006c7c7eaec29125bcd79b9ecc02ff8b07af9065e494014c7c03fb3"
+    },
+    {
+      "path": "scripts/codex_runtime.py",
+      "archive_source_sha256": "684ce942b23107179e46f2adf563e2d4075baba1433a25e9cc29274525da4f54",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "684ce942b23107179e46f2adf563e2d4075baba1433a25e9cc29274525da4f54"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/__init__.py",
+      "archive_source_sha256": "99d67581eb230807e8aadb220750a2174cc8e25f1c3be72719386a81f50ad468",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "99d67581eb230807e8aadb220750a2174cc8e25f1c3be72719386a81f50ad468"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/final_review.py",
+      "archive_source_sha256": "1196ab1aa6e728fb94d9bdc24f30f96eccfc19a7435a4a0cc70796d038eb9db6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "1196ab1aa6e728fb94d9bdc24f30f96eccfc19a7435a4a0cc70796d038eb9db6"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/pipeline.py",
+      "archive_source_sha256": "963c4d474dbc27f017050c9e87681e92fb414d5989b274ab23196bc3760c771a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "963c4d474dbc27f017050c9e87681e92fb414d5989b274ab23196bc3760c771a"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/prompts.py",
+      "archive_source_sha256": "82b3974671d51313f243392120b3779c1e7f0f0bd52d326e6f4105d4bbfe0122",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "82b3974671d51313f243392120b3779c1e7f0f0bd52d326e6f4105d4bbfe0122"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/runtime.py",
+      "archive_source_sha256": "9288bfad35a56d2deb336c62effde10e252b95fcdfb964eacf616e2216e38f70",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "9288bfad35a56d2deb336c62effde10e252b95fcdfb964eacf616e2216e38f70"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/statement_contract.py",
+      "archive_source_sha256": "ee142c88e64306b5161182abc325cc6b4efb0b4ed2c71f6b6f7234d0ab4442b1",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "ee142c88e64306b5161182abc325cc6b4efb0b4ed2c71f6b6f7234d0ab4442b1"
+    },
+    {
+      "path": "scripts/deepseek_rethlas/teaching_contract.py",
+      "archive_source_sha256": "0d915cd59f8f1223d5b4ac9823aac31b6919ef27ef8a2226ec3ccd5a5df44fe8",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0d915cd59f8f1223d5b4ac9823aac31b6919ef27ef8a2226ec3ccd5a5df44fe8"
+    },
+    {
+      "path": "scripts/deepseek_rethlas_cli.py",
+      "archive_source_sha256": "b8983e18591b3dcf2196b8c8b83cd47189c35eed38724f9ff15093557b61f215",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "b8983e18591b3dcf2196b8c8b83cd47189c35eed38724f9ff15093557b61f215"
+    },
+    {
+      "path": "scripts/dsh_integration/__init__.py",
+      "archive_source_sha256": "18dee905f9b9073b7e32ae1c14f09f1b0644f9ec4bd557c5793b5e93f0073733",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "18dee905f9b9073b7e32ae1c14f09f1b0644f9ec4bd557c5793b5e93f0073733"
+    },
+    {
+      "path": "scripts/dsh_integration/cli.py",
+      "archive_source_sha256": "f2e554d2723e1270bbc1c0b4ea999d20fa0dcc8aa418ff0b7ba339ec8bfc79fe",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f2e554d2723e1270bbc1c0b4ea999d20fa0dcc8aa418ff0b7ba339ec8bfc79fe"
+    },
+    {
+      "path": "scripts/dsh_integration/core.py",
+      "archive_source_sha256": "e677ea09f8fc33efc7e08c459d69aab69f4d308fb6cab2b381cb678c8415836d",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "5ed84a0f02518bed1e27442224e29ec6d3815025d96ba44a17fee8384052f272"
+    },
+    {
+      "path": "scripts/dsh_integration/mcp_server.py",
+      "archive_source_sha256": "caa1b7c8fdf9631d517b99a2bcc4c0c0f91885e8fa78985bc16a099b20a6458f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "caa1b7c8fdf9631d517b99a2bcc4c0c0f91885e8fa78985bc16a099b20a6458f"
+    },
+    {
+      "path": "scripts/eval_cli.py",
+      "archive_source_sha256": "5947de1c16633603b6da088ee121378d2e55cca13d3c62b48dbb9da3afe06e41",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "5947de1c16633603b6da088ee121378d2e55cca13d3c62b48dbb9da3afe06e41"
+    },
+    {
+      "path": "scripts/experiment_records.py",
+      "archive_source_sha256": "44a2104f06d21484360c78b0a7e99ee6e494dd73ecf6355ad8301f7eac3fd6f2",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "12af26e7c6439c2123a93ef4c01f04d49c8d6f0c78cfa3398331b19c221c4ce3"
+    },
+    {
+      "path": "scripts/hybrid_tutor/__init__.py",
+      "archive_source_sha256": "7195861f8bf3a9e439bef8fb8344dffc62d59e7f6756c008458bf23b073a5b13",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "7195861f8bf3a9e439bef8fb8344dffc62d59e7f6756c008458bf23b073a5b13"
+    },
+    {
+      "path": "scripts/hybrid_tutor/bridge.py",
+      "archive_source_sha256": "056cf240b512a67d9e037b6ba0eb2e3a5433264a8a06a66b69cc335d51159c73",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "056cf240b512a67d9e037b6ba0eb2e3a5433264a8a06a66b69cc335d51159c73"
+    },
+    {
+      "path": "scripts/hybrid_tutor/config.py",
+      "archive_source_sha256": "57b50399f0d988e0229a21c3fac1c3ad6e85fe40b5c4534a90c61a19d4873a1f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "57b50399f0d988e0229a21c3fac1c3ad6e85fe40b5c4534a90c61a19d4873a1f"
+    },
+    {
+      "path": "scripts/hybrid_tutor/deeptutor_probe.py",
+      "archive_source_sha256": "a2b1283cef90bc5da8c4d71883ac5f3d26630b582e3409e937af07c7427c1506",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a2b1283cef90bc5da8c4d71883ac5f3d26630b582e3409e937af07c7427c1506"
+    },
+    {
+      "path": "scripts/hybrid_tutor/deeptutor_runtime.py",
+      "archive_source_sha256": "5de773ade62f918995d97909696ad7369f1ee4a33241bfbbb448fecf8e9de8d3",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "5e030e6627362b8abbe46608fb17e53709b9edaf088356de2159fd95c87b115a"
+    },
+    {
+      "path": "scripts/hybrid_tutor/deeptutor_worker.py",
+      "archive_source_sha256": "671e761d93534c6e0d77f075bfb162158f2a722d2a06e084dd22bb88be2c2d1d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "671e761d93534c6e0d77f075bfb162158f2a722d2a06e084dd22bb88be2c2d1d"
+    },
+    {
+      "path": "scripts/hybrid_tutor/mcp_server.py",
+      "archive_source_sha256": "dec42a160090c3990cef0105888ca63425e0d5e8bc5388cde17af809287cb444",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "dec42a160090c3990cef0105888ca63425e0d5e8bc5388cde17af809287cb444"
+    },
+    {
+      "path": "scripts/hybrid_tutor/server.py",
+      "archive_source_sha256": "225c729fbc8130b13919ae98a78e2010ff1303f4a42c672a9b70bbc464c9ee64",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "225c729fbc8130b13919ae98a78e2010ff1303f4a42c672a9b70bbc464c9ee64"
+    },
+    {
+      "path": "scripts/hybrid_tutor/static/app.js",
+      "archive_source_sha256": "e8108b94ba93cf3767bdc0de67327a2c9ead4bf896a000c04ffcbadd048fbd57",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "e8108b94ba93cf3767bdc0de67327a2c9ead4bf896a000c04ffcbadd048fbd57"
+    },
+    {
+      "path": "scripts/hybrid_tutor/static/index.html",
+      "archive_source_sha256": "6388c695ffb1ffaf10f77ef48fb5cef3eba532a6c86c57ab699ae59d83d026f3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "6388c695ffb1ffaf10f77ef48fb5cef3eba532a6c86c57ab699ae59d83d026f3"
+    },
+    {
+      "path": "scripts/hybrid_tutor/static/styles.css",
+      "archive_source_sha256": "a6327ad6ca6ec684a9b5314a825b7078182dccd7c99fd8125ed6745d08f3f30c",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a6327ad6ca6ec684a9b5314a825b7078182dccd7c99fd8125ed6745d08f3f30c"
+    },
+    {
+      "path": "scripts/hybrid_tutor_cli.py",
+      "archive_source_sha256": "e4d293840e7817f9fb7d43d7da8ef09825acdfa4a424da9e929a73e57c674f02",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "e4d293840e7817f9fb7d43d7da8ef09825acdfa4a424da9e929a73e57c674f02"
+    },
+    {
+      "path": "scripts/index_dashboard.css",
+      "archive_source_sha256": "f9f6af9180fb03af22f11d845b65ce4dc36839897c8d3908339cfcf971e7f479",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f9f6af9180fb03af22f11d845b65ce4dc36839897c8d3908339cfcf971e7f479"
+    },
+    {
+      "path": "scripts/index_dashboard.js",
+      "archive_source_sha256": "172457e9b8667cc089551004824637b7d74c29efbc8ea2fa50cc5a1199bce626",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "172457e9b8667cc089551004824637b7d74c29efbc8ea2fa50cc5a1199bce626"
+    },
+    {
+      "path": "scripts/index_dashboard.py",
+      "archive_source_sha256": "082f6ed82497779458428bef196aaf84477ab0e08c938beeecaaed8fcd2b94bf",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "082f6ed82497779458428bef196aaf84477ab0e08c938beeecaaed8fcd2b94bf"
+    },
+    {
+      "path": "scripts/model_eval/__init__.py",
+      "archive_source_sha256": "a633f3eddfc5ab4af7571adba343877de5382efca247133f77fcc1df04ab92a3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a633f3eddfc5ab4af7571adba343877de5382efca247133f77fcc1df04ab92a3"
+    },
+    {
+      "path": "scripts/model_eval/cli.py",
+      "archive_source_sha256": "8276aba54f1cfac31e16cfe641a3443c74d55d8396ae013e313c60784922eb0e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8276aba54f1cfac31e16cfe641a3443c74d55d8396ae013e313c60784922eb0e"
+    },
+    {
+      "path": "scripts/model_eval/dsh.py",
+      "archive_source_sha256": "8b4e7f558e231dd2fbe01c8a5509f2170553a1154ebae5bb250256298e145221",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "afcae55d28c0a5bafaac12664693dc0e8613e6a1fe7e034805b1fbe9e55a667e"
+    },
+    {
+      "path": "scripts/model_eval/manifest.py",
+      "archive_source_sha256": "a4f2806412af01b8df3edc89f7ed3c26efd85e63fde48bd0b96ff9d8f38d5c2f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a4f2806412af01b8df3edc89f7ed3c26efd85e63fde48bd0b96ff9d8f38d5c2f"
+    },
+    {
+      "path": "scripts/model_eval/spec.py",
+      "archive_source_sha256": "f7f18d31c343034961303cf3ca6cae4e3b30cc63a249550c50e534646250f365",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f7f18d31c343034961303cf3ca6cae4e3b30cc63a249550c50e534646250f365"
+    },
+    {
+      "path": "scripts/model_eval/staging.py",
+      "archive_source_sha256": "8edd519c340895a97ca8ef5fa8e4e3e5589ceead6d94448cc0bccc082a5c99de",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8edd519c340895a97ca8ef5fa8e4e3e5589ceead6d94448cc0bccc082a5c99de"
+    },
+    {
+      "path": "scripts/model_eval/zstd_read.cjs",
+      "archive_source_sha256": "56748983c1f7f3b7d777372810e5c299e43a4708b114c9ec22877215db48fcbb",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "56748983c1f7f3b7d777372810e5c299e43a4708b114c9ec22877215db48fcbb"
+    },
+    {
+      "path": "scripts/record_reading.py",
+      "archive_source_sha256": "6dcb961a3ce93d88df59c05b105f84cd64e6644a1c3ec3782cc93b10d56b88df",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "6dcb961a3ce93d88df59c05b105f84cd64e6644a1c3ec3782cc93b10d56b88df"
+    },
+    {
+      "path": "scripts/render_record_math.cjs",
+      "archive_source_sha256": "5f012f465968879efc01e2aafac4daefa8b0c5b5937c26a1334813f2a852c793",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "5f012f465968879efc01e2aafac4daefa8b0c5b5937c26a1334813f2a852c793"
+    },
+    {
+      "path": "scripts/rethlas_core/__init__.py",
+      "archive_source_sha256": "4ad8abb43dc66d1d54e1c40f96731e56e31ec264b33d904f3a320bb22af285cb",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "4ad8abb43dc66d1d54e1c40f96731e56e31ec264b33d904f3a320bb22af285cb"
+    },
+    {
+      "path": "scripts/rethlas_core/budget.py",
+      "archive_source_sha256": "e9bfb64e6186097ba6a20de752692872af56e6cdbdaa726a9f276e6eedfdeda5",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "e9bfb64e6186097ba6a20de752692872af56e6cdbdaa726a9f276e6eedfdeda5"
+    },
+    {
+      "path": "scripts/rethlas_core/claims.py",
+      "archive_source_sha256": "bf68a54d97ed37a1137b51feb16939d94db79c86d2339caaef85cb8fbb0697b0",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "bf68a54d97ed37a1137b51feb16939d94db79c86d2339caaef85cb8fbb0697b0"
+    },
+    {
+      "path": "scripts/rethlas_core/computation.py",
+      "archive_source_sha256": "4a1676ca56d302fb7b81aeccea9f4e80cf448fb71e463bac123983bcaa2b3cac",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "4a1676ca56d302fb7b81aeccea9f4e80cf448fb71e463bac123983bcaa2b3cac"
+    },
+    {
+      "path": "scripts/rethlas_core/computation_worker.py",
+      "archive_source_sha256": "69b1a31746792f00a88a10186c6446c11ebd6229da7cf896c2d30ded2409259f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "69b1a31746792f00a88a10186c6446c11ebd6229da7cf896c2d30ded2409259f"
+    },
+    {
+      "path": "scripts/rethlas_core/memory.py",
+      "archive_source_sha256": "cdf499a24bd20332952f1b742a99179f98baabf18b7005273fb2429ab8c41ce6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "cdf499a24bd20332952f1b742a99179f98baabf18b7005273fb2429ab8c41ce6"
+    },
+    {
+      "path": "scripts/rethlas_core/publication.py",
+      "archive_source_sha256": "84fe2b91a7166a07ad76d3ed9be17563a73b1451fd78ad4b5a68f48183b79f0b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "84fe2b91a7166a07ad76d3ed9be17563a73b1451fd78ad4b5a68f48183b79f0b"
+    },
+    {
+      "path": "scripts/rethlas_core/verification.py",
+      "archive_source_sha256": "915e196545727089a8fcec2a9fe587f6607672378e733a0ae469b7fe3cb80759",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "915e196545727089a8fcec2a9fe587f6607672378e733a0ae469b7fe3cb80759"
+    },
+    {
+      "path": "scripts/runner.py",
+      "archive_source_sha256": "b17f5ec103e13b1538a3caa3fa65aa982babe325b47952a35de080c87de9544d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "b17f5ec103e13b1538a3caa3fa65aa982babe325b47952a35de080c87de9544d"
+    },
+    {
+      "path": "scripts/runtime_metrics.py",
+      "archive_source_sha256": "95cd04132ef0cc4c70d1df14b91a26e8e8745cbbff1536732785680c4c78f6ed",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "95cd04132ef0cc4c70d1df14b91a26e8e8745cbbff1536732785680c4c78f6ed"
+    },
+    {
+      "path": "scripts/runtime_observations.py",
+      "archive_source_sha256": "2e8f8d1b1b13b9367e2aaf5a1c721a51c7b866a2fc74820dd94021c95c96a92f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "2e8f8d1b1b13b9367e2aaf5a1c721a51c7b866a2fc74820dd94021c95c96a92f"
+    },
+    {
+      "path": "scripts/tests/fixtures/model_eval/headless_events.jsonl",
+      "archive_source_sha256": "a9289576c0aa92186fda6ae583b7e0c9c82be8e0102d8a4d19c6978caf2d7725",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a9289576c0aa92186fda6ae583b7e0c9c82be8e0102d8a4d19c6978caf2d7725"
+    },
+    {
+      "path": "scripts/tests/fixtures/model_eval/session_v4_events.json",
+      "archive_source_sha256": "d74e83ab39c634618e1f01a952b503455b6cdfa39123940181fa66604a5bfa27",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d74e83ab39c634618e1f01a952b503455b6cdfa39123940181fa66604a5bfa27"
+    },
+    {
+      "path": "scripts/tests/test_benchmark_evaluation.py",
+      "archive_source_sha256": "f1c00603221d1b66eb5c3d42f9c01209452d58c6ddf12ea2a112ae774abcdfdd",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f1c00603221d1b66eb5c3d42f9c01209452d58c6ddf12ea2a112ae774abcdfdd"
+    },
+    {
+      "path": "scripts/tests/test_claim_contract.py",
+      "archive_source_sha256": "534ae4d4c27fe4e976e8003b392675d9dc5b8fc4b38d3550dc82f26d1dd0c0b2",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "534ae4d4c27fe4e976e8003b392675d9dc5b8fc4b38d3550dc82f26d1dd0c0b2"
+    },
+    {
+      "path": "scripts/tests/test_claim_memory.py",
+      "archive_source_sha256": "83e2befb3a568186f1641fbc3ea502439ca5386bf38196cbe644523c6f83ebaf",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "83e2befb3a568186f1641fbc3ea502439ca5386bf38196cbe644523c6f83ebaf"
+    },
+    {
+      "path": "scripts/tests/test_computation_broker.py",
+      "archive_source_sha256": "8e6ee824e54203b7ef43d221feba3fdb34e0ab41a533d9e76cb4e836f727a51e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8e6ee824e54203b7ef43d221feba3fdb34e0ab41a533d9e76cb4e836f727a51e"
+    },
+    {
+      "path": "scripts/tests/test_deepseek_final_review.py",
+      "archive_source_sha256": "f432de9c3adbd75dc742bc9aa9392b10556da92a522bc062b87bb2c829853902",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f432de9c3adbd75dc742bc9aa9392b10556da92a522bc062b87bb2c829853902"
+    },
+    {
+      "path": "scripts/tests/test_deepseek_pipeline.py",
+      "archive_source_sha256": "8d692fe2543355c8beb69c794da2dff2f926336f78b5fa4cae41d55309913ac6",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8d692fe2543355c8beb69c794da2dff2f926336f78b5fa4cae41d55309913ac6"
+    },
+    {
+      "path": "scripts/tests/test_deepseek_runtime.py",
+      "archive_source_sha256": "3295f725b4fa682e37b4ede72e083f0d5056cabfe523ace227a5c64331eca12a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "3295f725b4fa682e37b4ede72e083f0d5056cabfe523ace227a5c64331eca12a"
+    },
+    {
+      "path": "scripts/tests/test_experiment_records.py",
+      "archive_source_sha256": "dca6e5f7728fe2fc61d17e54ba278bfffb840b276727d35a211fb778aea68ded",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "dca6e5f7728fe2fc61d17e54ba278bfffb840b276727d35a211fb778aea68ded"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_atomic_io.py",
+      "archive_source_sha256": "dedc396139971787acae23855b5f63bea98ab1c014d8e2a1c2639b2b3b23297c",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "dedc396139971787acae23855b5f63bea98ab1c014d8e2a1c2639b2b3b23297c"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_bridge.py",
+      "archive_source_sha256": "56dbbb4b05e0f50902dbbbeed5884c56a87d499f7dea9ae29b5157cd8b451d9f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "56dbbb4b05e0f50902dbbbeed5884c56a87d499f7dea9ae29b5157cd8b451d9f"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_config.py",
+      "archive_source_sha256": "70685004285e4e87304b1d2eea4d97d773ca87c0910a9bffc235a1c1ac74533c",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "70685004285e4e87304b1d2eea4d97d773ca87c0910a9bffc235a1c1ac74533c"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_deeptutor.py",
+      "archive_source_sha256": "a758a28bb0ae9f8018de1d99f2127c53277ef86ba19bd61016c69fbf42d3fe64",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "a758a28bb0ae9f8018de1d99f2127c53277ef86ba19bd61016c69fbf42d3fe64"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_pipeline.py",
+      "archive_source_sha256": "df29059816a706a48669958fb36d5041d61b7b09dd4edbbc434928f36a18197a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "df29059816a706a48669958fb36d5041d61b7b09dd4edbbc434928f36a18197a"
+    },
+    {
+      "path": "scripts/tests/test_hybrid_record_view.py",
+      "archive_source_sha256": "d54e7b8fa55be30cd278121c9620e034d1ab193bae02c26eee7d1dfe2d551038",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d54e7b8fa55be30cd278121c9620e034d1ab193bae02c26eee7d1dfe2d551038"
+    },
+    {
+      "path": "scripts/tests/test_index_dashboard.cjs",
+      "archive_source_sha256": "8733e73c738ad4c473f626c7eb29e93954e1231f57cb08c3d80f7be7a76d6168",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "8733e73c738ad4c473f626c7eb29e93954e1231f57cb08c3d80f7be7a76d6168"
+    },
+    {
+      "path": "scripts/tests/test_index_metrics.py",
+      "archive_source_sha256": "afd55ee7766b15921bccacfa9fd53b54f2fc011fb14a68100ee83255bbe5768b",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "afd55ee7766b15921bccacfa9fd53b54f2fc011fb14a68100ee83255bbe5768b"
+    },
+    {
+      "path": "scripts/tests/test_model_eval.py",
+      "archive_source_sha256": "0e327dc011d2d1d4e9bfb83ebd25dc81bbb727cb91e54203f42996b8edbaf95d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "0e327dc011d2d1d4e9bfb83ebd25dc81bbb727cb91e54203f42996b8edbaf95d"
+    },
+    {
+      "path": "scripts/tests/test_record_rendering.py",
+      "archive_source_sha256": "4dee1836bdc246eaaaa63148d422f7da49356a75168717a2ed6ae24dad932afa",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "4dee1836bdc246eaaaa63148d422f7da49356a75168717a2ed6ae24dad932afa"
+    },
+    {
+      "path": "scripts/tests/test_run_budget.py",
+      "archive_source_sha256": "f969d7b88a4a6900d5d72516b2f98ce5ff3bee4ddcfe6f83f627d90375d13a7f",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f969d7b88a4a6900d5d72516b2f98ce5ff3bee4ddcfe6f83f627d90375d13a7f"
+    },
+    {
+      "path": "scripts/tests/test_runner_records.py",
+      "archive_source_sha256": "f9f65b316b84fc4843aa4a5ae0c87173a25b28a1adaea8599026fd8767cd3aca",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "f9f65b316b84fc4843aa4a5ae0c87173a25b28a1adaea8599026fd8767cd3aca"
+    },
+    {
+      "path": "scripts/tests/test_runtime_metrics.py",
+      "archive_source_sha256": "37c847443f8220ac797145d9cb5fa51d040ebb6885d4aebb89ff836a523b7228",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "37c847443f8220ac797145d9cb5fa51d040ebb6885d4aebb89ff836a523b7228"
+    },
+    {
+      "path": "scripts/tests/test_runtime_record_view.py",
+      "archive_source_sha256": "efb6d9b588d9ac7f6d500bdd21a9dd3243e6a0e5e8d3acce337ad8e27287a1c7",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "efb6d9b588d9ac7f6d500bdd21a9dd3243e6a0e5e8d3acce337ad8e27287a1c7"
+    },
+    {
+      "path": "scripts/tests/test_teaching_contract.py",
+      "archive_source_sha256": "2b91dab10eed0f59eda142dfec2465e40090f8f847325dbfca4b228940927e20",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "2b91dab10eed0f59eda142dfec2465e40090f8f847325dbfca4b228940927e20"
+    },
+    {
+      "path": "scripts/tests/test_v2_final_review.py",
+      "archive_source_sha256": "d831a23c134453cfa20da829417d26e379afba51790e406f910f03c7fbc2708a",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "d831a23c134453cfa20da829417d26e379afba51790e406f910f03c7fbc2708a"
+    },
+    {
+      "path": "scripts/tests/test_verification_gate.py",
+      "archive_source_sha256": "cbef0f857b0731c74956c63548c93f16a2d69917236979f233d00b82a725ce88",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "cbef0f857b0731c74956c63548c93f16a2d69917236979f233d00b82a725ce88"
+    },
+    {
+      "path": "scripts/vendor/katex/LICENSE.txt",
+      "archive_source_sha256": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "766ccc1f306c885aa45542a9846bbd0a505b27a0374f146778171c2254ce18e3"
+    },
+    {
+      "path": "scripts/vendor/katex/katex.min.js",
+      "archive_source_sha256": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89"
+    },
+    {
+      "path": "scripts/vendor/katex/provenance.json",
+      "archive_source_sha256": "e134e4d3ea4faf4229855b26335dfbee415d5211c1d3665bae45db863da746f0",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "745c9a5355b733a80d9a23ad6f7b2e2649663259d0f605db37b6b4b909fc83bb"
+    },
+    {
+      "path": "scripts/verification_api.py",
+      "archive_source_sha256": "bea2509cb0a89d3c8f73ca0f713bdb05d6a3105cc269cc4b7e6c414ffe0abc2e",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "bea2509cb0a89d3c8f73ca0f713bdb05d6a3105cc269cc4b7e6c414ffe0abc2e"
+    },
+    {
+      "path": "setup/deepseek-rethlas-v2.json",
+      "archive_source_sha256": "569ea0f2f9570ce3bcb936794d01337cc6d20cac7643c27f4f1714098cd5030d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "569ea0f2f9570ce3bcb936794d01337cc6d20cac7643c27f4f1714098cd5030d"
+    },
+    {
+      "path": "setup/deepseek-rethlas.json",
+      "archive_source_sha256": "b83b75ddfd8ccacb8a1cbb1c95c4f47c95004dafd408e4eb23e2ae79b910979d",
+      "modified_for_public_export": false,
+      "public_text_sha256_lf": "b83b75ddfd8ccacb8a1cbb1c95c4f47c95004dafd408e4eb23e2ae79b910979d"
+    },
+    {
+      "path": "setup/hybrid-math-runtime.json",
+      "archive_source_sha256": "1e202e103d10f0ac9a3f74e713e3572074253ce7063e89f245bca3aeb30bc964",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "7ba7b9c44b72b6776a27470d99cd91c5193067bb6ba3cddb5939f57fad40d761"
+    },
+    {
+      "path": "setup/hybrid-tutor.json",
+      "archive_source_sha256": "8ce304569950619907c18dd2e021eabee1bcd5225f7e846c8ab067e7c76c0bf8",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "8aa70cf98ff89d74ad3ad991899824433404b5a613110deb5c2586d681522bdb"
+    },
+    {
+      "path": "setup/runtime.json",
+      "archive_source_sha256": "37d173a2b53492e6bf092db15e7d13cf2f7d088619fbfa543ecc794c83a4d9ca",
+      "modified_for_public_export": true,
+      "public_text_sha256_lf": "d105c15f513c162d0e1cc5045e68ea579f2ef96bf01f4a26f127fe4077a8bbd3"
+    }
+  ]
+}

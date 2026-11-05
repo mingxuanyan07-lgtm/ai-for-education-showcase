@@ -1,0 +1,9 @@
+{
+  "name": "KaTeX",
+  "version": "0.16.22",
+  "license": "MIT",
+  "source": "https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js",
+  "license_source": "https://cdn.jsdelivr.net/npm/katex@0.16.22/LICENSE",
+  "sha256": "e8d885505949f3a5f4abdd5dd0d53696bd1371ad26ffbf4f310dcd77c8cdae89",
+  "purpose": "Offline conversion to static MathML; reading pages do not fetch network resources."
+}

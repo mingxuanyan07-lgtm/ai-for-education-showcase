@@ -1,0 +1,15 @@
+sample_id,diagnostic,A,B,C,A_additional_review
+MATH4,false,correct,partial,correct,
+MATH5,false,partial,partial,unanswered,
+MATH6,false,correct,partial,correct,
+MATH7,false,unanswered,partial,correct,
+MATH8,false,unanswered,partial,timeout_binding_anomaly,
+MATH9,false,correct,correct,not_run,
+MATH10,false,correct,partial,not_run,partial
+MATH11,true,unanswered,wrong,not_run,
+MATH12,false,correct,correct,not_run,
+MATH13,false,correct,correct,not_run,
+MATH14,false,correct,partial,not_run,
+MATH15,false,correct,correct,not_run,
+MATH16,false,correct,partial,not_run,
+MATH17,false,partial,partial,not_run,

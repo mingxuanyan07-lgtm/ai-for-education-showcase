@@ -1,0 +1,51 @@
+{
+  "source_archive_commit": "0c2800fef48501cbb521499bfa78741ddb6948fc",
+  "record_inventory": {
+    "math_experiments": 97,
+    "installation_tests": 3,
+    "distinct_math_sample_problems": 17
+  },
+  "abc_fixed_expansion": {
+    "planned_problems": 14,
+    "primary_problems": 13,
+    "diagnostic_problems": 1,
+    "planned_tasks": 42,
+    "complete_teaching_answers_reviewed": 28,
+    "bindable_tasks_reviewed": 32,
+    "systems": {
+      "A": {
+        "name": "Rethlas DeepSeek verified-v2 text adaptation",
+        "correct": 9,
+        "reviewed_primary_tasks": 13
+      },
+      "B": {
+        "name": "DeepTutor native deep_solve",
+        "correct": 4,
+        "reviewed_primary_tasks": 13
+      },
+      "C": {
+        "name": "Rethlas proof plus DeepTutor teaching adaptation",
+        "correct": 3,
+        "reviewed_primary_tasks": 4,
+        "other_tasks": {
+          "timeout_with_binding_anomaly": 1,
+          "not_run": 9
+        }
+      }
+    },
+    "disagreement": {
+      "system": "A",
+      "sample": "MATH10",
+      "first_review": "correct",
+      "additional_review": "partial",
+      "human_adjudication": "pending",
+      "alternative_correct_count": 8
+    },
+    "limitations": [
+      "Different provider routes, budgets and tools; no fair ranking claim.",
+      "C covers only four bindable primary tasks.",
+      "Model reviews are not human reviews or formal proofs.",
+      "No learner-outcome measurement or full MATH benchmark."
+    ]
+  }
+}

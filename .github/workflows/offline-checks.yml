@@ -1,0 +1,50 @@
+name: Offline checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  synthetic-tests:
+    name: Synthetic tests (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: '1'
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install direct test dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Full Python offline suite
+        run: python -B scripts/run_offline_tests.py --json-report .local-test-results.json
+      - name: Synthetic offline demonstration
+        run: python -B examples/offline_demo.py
+      - name: JavaScript dashboard contracts
+        run: node scripts/tests/test_index_dashboard.cjs
+      - name: Recount published benchmark summary
+        run: python -B examples/check_benchmark_summary.py
+      - name: Preserve the sanitized Python result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-results-${{ matrix.os }}
+          path: .local-test-results.json
+          include-hidden-files: true
+          if-no-files-found: warn
+          retention-days: 7

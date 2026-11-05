@@ -1,0 +1,13 @@
+# Replace placeholders and verify your local CLI version before live use.
+model = "CONFIGURE_MODEL"
+model_reasoning_effort = "high"
+sandbox_mode = "workspace-write"
+approval_policy = "on-request"
+approvals_reviewer = "auto_review"
+
+[mcp_servers.verification_agent]
+command = "CONFIGURE_PROJECT_PYTHON"
+args = ["-X", "utf8", "CONFIGURE_VERIFICATION_MCP_SERVER"]
+cwd = "CONFIGURE_VERIFICATION_DIRECTORY"
+startup_timeout_sec = 45
+tool_timeout_sec = 1200

@@ -1,0 +1,7 @@
+{
+  "kind": "template_example",
+  "reference": "evaluations/inputs/example/verified-proof.md",
+  "verdict": "example_only_not_verified",
+  "verified_by": "未记录",
+  "notes": "示例模板素材。真实评测必须替换为实际已核验证明，并写明来源记录或核验报告。"
+}

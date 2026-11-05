@@ -1,0 +1,6 @@
+# Preserve frozen source/template bytes and hash-bound JSON configurations.
+* -text
+*.png binary
+scripts/vendor/** linguist-vendored
+Rethlas/** linguist-vendored
+docs/validation/** linguist-generated

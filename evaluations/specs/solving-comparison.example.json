@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "description": "示例：第 2 类解题能力比较。各模型独立接收相同题面与允许资料，完整回答统一交给明确指定的独立核验者。此文件只是格式模板，不代表已执行实验。",
+  "batch": {
+    "batch_id": "example-solving-comparison",
+    "notes": "模板示例；真实运行请换新的 batch_id。"
+  },
+  "category": "solving_comparison",
+  "question": {
+    "question_id": "example-q01",
+    "file": "evaluations/inputs/example/question.md",
+    "tags": ["示例", "解题比较"]
+  },
+  "materials": {
+    "allowed_resources": [],
+    "requirements_file": "evaluations/inputs/example/requirements.md",
+    "reference_files": [
+      "prompt-engineering/prompts/versions.json"
+    ]
+  },
+  "user_request": {
+    "file": "evaluations/inputs/example/user-request.md"
+  },
+  "prompt": {
+    "file": "evaluations/inputs/example/solving-prompt.md"
+  },
+  "design": {
+    "independent_from_other_models": true,
+    "notes": "各模型独立首稿；核验反馈引起的修订另记轮次。"
+  },
+  "verification_plan": {
+    "required": true,
+    "method": "统一交给明确指定的独立核验者",
+    "verifier": {
+      "verifier_id": "independent-verifier-example",
+      "name": "示例独立核验者",
+      "kind": "未记录",
+      "model": "未记录",
+      "provider": "未记录",
+      "framework": "未记录",
+      "notes": "必须与受测模型/工作流身份分开。"
+    }
+  },
+  "evaluation_plan": {
+    "rubric_file": "prompt-engineering/references/review-rubric.md",
+    "dimensions": ["条件与结论", "定义域", "逻辑衔接", "边界条件", "核验证据"]
+  },
+  "candidates": [
+    {
+      "candidate_id": "codex-direct",
+      "ai_id": "codex-direct-example-solving",
+      "framework": "普通 Codex 回答",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "未记录",
+      "invocation": {"mode": "manual_import"},
+      "budget": {"max_calls": 1, "timeout_seconds": 900}
+    },
+    {
+      "candidate_id": "dsh",
+      "ai_id": "dsh-example-solving",
+      "framework": "DSH（DeepSeek Harness）工作台",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "未记录",
+      "invocation": {"mode": "manual_import"},
+      "budget": {"max_calls": 1, "timeout_seconds": 900}
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "model": "CONFIGURE_MODEL",
+  "reasoning_effort": "high",
+  "codex_bin": "codex",
+  "shared_mcp": {},
+  "disabled_global_mcp": []
+}

@@ -1,0 +1,41 @@
+{
+  "created_at_utc": "2026-11-05T01:57:18.748491+00:00",
+  "scope": "Full published Python unittest discovery; synthetic fixtures and mocked providers",
+  "platform": "Windows",
+  "python": "3.13.9",
+  "discovered_tests": 357,
+  "tests_run": 357,
+  "passed": 357,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "expected_failures": 0,
+  "unexpected_successes": 0,
+  "complete": true,
+  "successful": true,
+  "elapsed_seconds": 144.25,
+  "failure_details": [],
+  "error_details": [],
+  "skip_details": [],
+  "node_dashboard": {
+    "successful": true,
+    "node": "24.22.1",
+    "scope": "Synthetic dashboard contracts"
+  },
+  "offline_demo": {
+    "successful": true,
+    "checks": 4,
+    "model_calls": 0,
+    "synthetic": true
+  },
+  "preparation_history": {
+    "initial_discovered": 353,
+    "initial_errors": 50,
+    "causes": {
+      "missing_synthetic_evaluation_inputs": 47,
+      "missing_portable_hybrid_configuration": 2,
+      "transient_windows_replace_error": 1
+    },
+    "resolution": "Examples/configuration supplied; bounded atomic-replacement retry and four regression tests added. Full suite rerun passed."
+  }
+}

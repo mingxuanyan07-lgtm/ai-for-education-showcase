@@ -1,0 +1,24 @@
+{
+  "question_id": "Q001",
+  "ai_id": "system-placeholder",
+  "run_id": "原实验run_id",
+  "external_reviews": [{
+    "review_id": "replace-with-new-review-id",
+    "scope": "final_output",
+    "independent": true,
+    "protocol_id": "replace-with-shared-protocol-version",
+    "rubric_id": "replace-with-shared-rubric-version",
+    "target": {"iteration_id": "final-output", "answer_sha256": "0000000000000000000000000000000000000000000000000000000000000000"},
+    "reviewer": {"reviewer_id": "replace-with-common-reviewer", "kind": "model", "model": "未记录", "provider": "未记录", "session_id": "未记录"},
+    "verdict": "not_reviewed",
+    "report": "模板尚未实际审阅；填写完整真实外审结论与依据后导入",
+    "report_file": null,
+    "dimensions": {
+      "teaching_quality": {"status": "pending", "items": []},
+      "interaction": {"status": "not_evaluated", "scenario_id": "未记录", "rounds": null, "items": []}
+    },
+    "human_audit": {"status": "pending", "sampling_method": "未记录", "reviewer_id": "未记录", "verdict": "not_reviewed", "report": "未记录"},
+    "review_usage": {"calls": null, "input_tokens": null, "output_tokens": null, "wall_seconds": null, "cost": null, "currency": "未记录"}
+  }],
+  "evidence_files": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "description": "示例：第 1 类教学能力比较。固定题面、已核验证明、学生背景与教学要求，各模型独立生成中文讲解。此文件只是格式模板，不代表已执行实验。",
+  "batch": {
+    "batch_id": "example-teaching-comparison",
+    "notes": "模板示例；真实运行请换新的 batch_id 并确认所有材料版本。"
+  },
+  "category": "teaching_comparison",
+  "question": {
+    "question_id": "example-q01",
+    "file": "evaluations/inputs/example/question.md",
+    "tags": ["示例", "教学比较"]
+  },
+  "materials": {
+    "verified_proof_file": "evaluations/inputs/example/verified-proof.md",
+    "verified_proof_source": {
+      "kind": "template_example",
+      "reference": "evaluations/inputs/example/proof-source.json",
+      "verdict": "example_only_not_verified",
+      "verified_by": "未记录",
+      "notes": "示例素材未经本项目核验；真实评测必须使用实际核验过的证明。"
+    },
+    "student_background_file": "evaluations/inputs/example/student-background.md",
+    "teaching_requirements_file": "evaluations/inputs/example/teaching-requirements.md",
+    "requirements_file": "evaluations/inputs/example/requirements.md",
+    "reference_files": [
+      "prompt-engineering/prompts/common-input.md",
+      "prompt-engineering/prompts/teaching-t2.md",
+      "prompt-engineering/prompts/versions.json"
+    ]
+  },
+  "user_request": {
+    "file": "evaluations/inputs/example/user-request.md"
+  },
+  "prompt": {
+    "file": "evaluations/inputs/example/teaching-prompt.md"
+  },
+  "design": {
+    "independent_from_other_models": true,
+    "modification_rounds_allowed": false,
+    "notes": "各候选独立初稿；互相不提供其他模型的回答或人工评价。"
+  },
+  "verification_plan": {
+    "required": true,
+    "method": "每份教学稿另行数学复核；示例未执行",
+    "verifier": {
+      "verifier_id": "example-reviewer",
+      "name": "示例独立复核者",
+      "kind": "未记录",
+      "model": "未记录",
+      "provider": "未记录",
+      "framework": "未记录",
+      "notes": "真实评测必须指定独立核验者；不能与受测模型相同。"
+    }
+  },
+  "evaluation_plan": {
+    "rubric_file": "prompt-engineering/references/review-rubric.md",
+    "dimensions": ["关键思路", "逐步引导", "知识匹配", "常见错误", "方法总结", "表达与直观性"],
+    "human_review_note": "人工感受由用户填写；程序不代写评分。"
+  },
+  "candidates": [
+    {
+      "candidate_id": "dsh",
+      "ai_id": "dsh-example-teaching",
+      "framework": "DSH（DeepSeek Harness）工作台",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "未记录",
+      "invocation": {"mode": "manual_import"},
+      "budget": {"max_calls": 1, "timeout_seconds": 900},
+      "notes": "示例候选：在 DSH 中独立生成后手动导出完整输入输出。"
+    },
+    {
+      "candidate_id": "other-model",
+      "ai_id": "other-model-example-teaching",
+      "framework": "其他模型（手动导入）",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "未记录",
+      "invocation": {"mode": "manual_import"},
+      "budget": {"max_calls": 1, "timeout_seconds": 900},
+      "notes": "示例候选：没有可靠自动化接口时使用完整输入输出文件导入。"
+    }
+  ]
+}

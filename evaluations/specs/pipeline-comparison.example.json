@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "description": "示例：第 3 类完整流程比较。同时记录实际模型、工具、调用预算和组织方式；不把差异全部归因于模型。此文件只是格式模板，不代表已执行实验。",
+  "batch": {
+    "batch_id": "example-pipeline-comparison",
+    "notes": "模板示例；真实运行请换新的 batch_id。"
+  },
+  "category": "pipeline_comparison",
+  "question": {
+    "question_id": "example-q01",
+    "file": "evaluations/inputs/example/question.md",
+    "tags": ["示例", "流程比较"]
+  },
+  "materials": {
+    "allowed_resources": [],
+    "requirements_file": "evaluations/inputs/example/requirements.md",
+    "reference_files": [
+      "prompt-engineering/prompts/versions.json"
+    ]
+  },
+  "user_request": {
+    "file": "evaluations/inputs/example/user-request.md"
+  },
+  "prompt": {
+    "file": "evaluations/inputs/example/solving-prompt.md"
+  },
+  "design": {
+    "independent_from_other_models": true,
+    "notes": "比较完整流程时并列记录模型、工具、预算与组织方式；只报告本批次可观察差异。"
+  },
+  "verification_plan": {
+    "required": true,
+    "method": "统一交给明确指定的独立核验者",
+    "verifier": {
+      "verifier_id": "independent-verifier-example",
+      "name": "示例独立核验者",
+      "kind": "未记录",
+      "model": "未记录",
+      "provider": "未记录",
+      "framework": "未记录"
+    }
+  },
+  "evaluation_plan": {
+    "rubric_file": "prompt-engineering/references/review-rubric.md",
+    "dimensions": ["数学判定", "流程证据", "工具与预算", "归因限制"]
+  },
+  "candidates": [
+    {
+      "candidate_id": "rethlas",
+      "ai_id": "rethlas-example-gpt-6.1-sol",
+      "framework": "Rethlas：求解 + 独立核验 + 修订",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "保留 workspace-write 与自动审核",
+      "tools": ["Codex 求解", "独立核验服务", "math-local 计算 MCP"],
+      "organization": "求解者生成证明，独立核验者判定，核验反馈引起修订",
+      "budget": {"max_calls": 6, "max_rounds": 3, "timeout_seconds": 900},
+      "invocation": {"mode": "manual_import"},
+      "notes": "实际模型与用量应取 Rethlas 自己的 .run.json 与 JSONL，不能用 DSH 会话中的编排模型代替。"
+    },
+    {
+      "candidate_id": "codex-direct",
+      "ai_id": "codex-direct-example-single",
+      "framework": "普通 Codex 单次回答",
+      "provider": "未记录",
+      "configured_model": "未记录",
+      "tool_permissions": "未记录",
+      "tools": ["Codex CLI"],
+      "organization": "单次生成，不含独立核验轮次",
+      "budget": {"max_calls": 1, "max_rounds": 1, "timeout_seconds": 900},
+      "invocation": {"mode": "manual_import"}
+    }
+  ]
+}

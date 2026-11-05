@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "proof": {
+    "provider": "deepseek-account",
+    "model": "deepseek-flash",
+    "reasoning_effort": "max",
+    "architecture_profile": "verified-v2",
+    "teaching_contract": "knowledge-route-v1",
+    "max_rounds": 2,
+    "timeout_seconds": 900,
+    "max_model_calls": 8,
+    "max_tool_calls": 12,
+    "max_total_seconds": 2700,
+    "max_observed_tokens": 150000,
+    "record_kind": "math_experiment",
+    "final_review": "codex_current_chat",
+    "search": "disabled",
+    "allow_provider_fallback": false
+  },
+  "teaching": {
+    "provider": "deepseek-api",
+    "model": "deepseek-flash",
+    "workflow_variant": "deeptutor-chat-teaching-v1"
+  },
+  "math_runtime_config": "setup/hybrid-math-runtime.json",
+  "math_runtime_sha256": "7ba7b9c44b72b6776a27470d99cd91c5193067bb6ba3cddb5939f57fad40d761"
+}

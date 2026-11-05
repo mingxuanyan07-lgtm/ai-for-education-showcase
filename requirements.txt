@@ -1,0 +1,12 @@
+# Direct dependencies for the synthetic offline suite and published adapters.
+# Versions are read from the environment used for the local verification.
+# Provider applications, credentials, and model calls are not part of this setup.
+jsonschema==4.26.0
+PyYAML==6.0.3
+markdown-it-py==4.2.0
+fastapi==0.143.0
+pydantic==2.14.0
+requests==2.34.2
+httpx==0.28.1
+fastmcp==4.1.0
+mcp==2.3.0

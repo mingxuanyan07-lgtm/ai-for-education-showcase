@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "test_sets": [
+    {
+      "test_set_id": "example-math-v1",
+      "name": "示例测试集 v1（仅格式模板）",
+      "question_ids": ["Q001", "Q002", "Q003"],
+      "ai_ids": ["model-a-direct", "model-b-direct"]
+    }
+  ]
+}
